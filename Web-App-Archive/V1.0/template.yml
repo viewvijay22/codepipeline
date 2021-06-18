@@ -2,10 +2,4 @@ x.
     Value:
       Fn::Join:
         - ""
-        - - 'aws ec2 describe-instance-attribute --instance-id '
-          - Ref: EC2Instance
-          - " --attribute userData | awk '{print $2}' | base64 --decode"
-  WebConsoleInstructions:
-    Description: Instructions for using the web console to view userdata.
-    Value: 'Log in to the web console, navigate to the EC2 service section, select instances on the left, select
-    your instance from the list, click "actions" above the list, mouse over Instance Settings, click View/Change User Data.
+

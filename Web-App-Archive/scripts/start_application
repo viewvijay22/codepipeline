@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -e     poiwh.huwatg
 
 CATALINA_HOME='/usr/share/tomcat7'
 DEPLOY_TO_ROOT='true'

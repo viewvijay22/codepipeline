@@ -4,7 +4,7 @@ set -e
 
 CATALINA_HOME=/usr/share/tomcat7
 
-# Tar file name
+# Tar file name  jqkhd kbf
 #TOMCAT7_CORE_TAR_FILENAME='apache-tomcat-7.0.69.tar.gz'
 # Download URL for Tomcat7 core
 #TOMCAT7_CORE_DOWNLOAD_URL="http://mirror.olnevhost.net/pub/apache/tomcat/tomcat-7/v7.0.69/bin/$TOMCAT7_CORE_TAR_FILENAME"

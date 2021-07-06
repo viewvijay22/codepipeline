@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "copying template" 
+      
+artifacts:
+  files:
+     - "**/*" 
+base-directory: Web-App-Archive/v1.0
